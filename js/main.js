@@ -1,4 +1,4 @@
-/*const arr = [{"id":1,"firstName":"Osmond","surName":"Kieran","sex":"Male","age":26,"isVegetarian":true,"langCount":8},
+const arr = [{"id":1,"firstName":"Osmond","surName":"Kieran","sex":"Male","age":26,"isVegetarian":true,"langCount":8},
     {"id":2,"firstName":"Rogerio","surName":"Canedo","sex":"Male","age":36,"isVegetarian":false,"langCount":4},
     {"id":3,"firstName":"Heath","surName":"Merrin","sex":"Male","age":47,"isVegetarian":true,"langCount":8},
     {"id":4,"firstName":"Fran","surName":"Crowdy","sex":"Female","age":29,"isVegetarian":true,"langCount":13},
@@ -101,7 +101,7 @@
 
 const str = JSON.stringify(arr);
 
-localStorage.setItem("users", str);*/
+localStorage.setItem("users", str);
 
 let users = {
     getArray: () => {
