@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Homework part 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"> </script>
+    <script defer src="js/country.js"> </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper"> JavaScript Homework Part 1 </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__wrapper">
+                    <div class="main__item stats">
+                        <h2 class="stats__title"> USER STATISTIC</h2>
+                        <ul class="stats__info">
+                            <li class="stats__item">Average age: <span class="stats__value" id="avgAge"> </span></li>
+                            <li class="stats__item">Max count of languages: <span class="stats__value" id="maxLang"> </span></li>
+                            <li class="stats__item">Females: <span class="stats__value" id="females">  </span> </li>
+                            <li class="stats__item">Males: <span class="stats__value" id="males"> </span></li>
+                        </ul>
+                    </div>
+                    <div class="main__item country">
+                        <h2 class="country__title"> Is it European country? </h2>
+                        <div class="input">
+                            Country name: <input type="text" class="input__field" id="country"/>
+                            <button class="validate" id="validate_button"> Validate </button>
+
+                        </div>
+                        <div class="country__message" id="countryMessage"> </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    font-size: 24px;
+}
+
+.main__wrapper{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.stats__value{
+    color: #319DE2;
+}
+
+.main__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: #319DE2;
+    border-style: dashed;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.validate{
+    background-color: #319DE2;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.validate:hover{
+    background-color: #2967e2;
+}
+
+.input{}
+
+.input__field{
+    padding: 3px 16px;
+    font-size: 16px;
+}
+
+.country__message{
+    font-size: 20px;
+    margin: 0 auto;
+}
